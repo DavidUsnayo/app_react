@@ -8,7 +8,8 @@ App hecha con **React** y **TypeScript**.
 - **React + TypeScript**: usado para hacer el proyecto.
 - **react-router-dom**: usado para el enrutamiento entre páginas.
 - **Context API**: para hacer el contexto y manejar el estado global.
-- **CSS Modules**: para dar los estilos y un poco de Tailwind css.
+- **CSS Modules**: para dar los estilos
+- **Tailwid-css**: para estilizar los componentes
 
 ---
 

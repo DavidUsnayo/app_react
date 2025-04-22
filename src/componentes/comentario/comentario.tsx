@@ -1,5 +1,3 @@
-import style from './comentario.module.css'
-
 interface Comments {
     postId: number;
     id: string;
@@ -16,11 +14,11 @@ export function Comentario({listas}:propCommet){
         <>
         {listas.map((info,index)=>{
             return(
-            <div className={style.comentario} key={index}>
-                <div className={style.circle}></div>
+            <div className="flex gap-3 m-3 py-4 px-3 bg-[#fcfcfc] rounded-xl" key={index}>
+                <div className='bg-gray-400 min-w-9 max-h-9  rounded-full'></div>
                 <div>
-                    <h4> {info.email} </h4>
-                    <p> {info.body} </p>
+                    <h4 className='text-bold'> {info.email} </h4>
+                    <p className='text-[15px] text-gray-500 leading-[20px]'> {info.body} </p>
                 </div>
             </div>
             )
